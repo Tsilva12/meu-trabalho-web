@@ -6,14 +6,13 @@
     <title>Document</title>
     <script src="index.js" defer></script>
     <link rel="stylesheet" href="index.css">
-     <link rel="preconnect" href="https://fonts.googleapis.com">
-     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-     <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap" rel="stylesheet">
 </head>
 <body>
-    
-     <!-- Tela de Login -->
-     <div id="loginForm" class="caixao">
+    <!-- Tela de Login -->
+    <div id="loginForm" class="caixao">
         <h2>Login</h2>
         <input type="email" id="emailInput" class="caixao" placeholder="Digite seu e-mail" />
         <button onclick="fazerLogin()">Entrar</button>
@@ -35,7 +34,18 @@
             </div>
             <p class="umidade">Umidade: 0%</p>
         </div>
-    </div>
 
+        <!-- Botão para ver o histórico -->
+        <h3></h3>
+        <button class="btn-historico" onclick="verHistorico()">Ver Histórico</button>
+
+
+        <!-- Lista de Histórico -->
+        <ul id="listaHistorico"></ul>
+
+        <button id="confirmarPrevisaoBtn" style="display:none;" onclick="confirmarPrevisao()">Confirmar Previsões</button>
+
+    </div>
 </body>
 </html>
+

@@ -60,10 +60,10 @@ button:hover {
 
 
 .caixa-media {
-    margin-top: 30px;
+    margin-top: 20px;
 }
 
-/* Estilo da lupa (ícone de busca) */
+/* Estilo da lupa */
 .lupa {
     height: 20px;
 }
@@ -107,3 +107,70 @@ button:focus {
     outline: none; /* Remove o contorno */
     box-shadow: 0 0 5px rgba(255, 255, 255, 0.4); /* Adiciona uma leve sombra no botão */
 }
+
+/* Estilo para o histórico */
+#listaHistorico {
+    list-style-type: none; /* Remove as bolas das listas */
+    padding: 0;
+    margin-top: 20px;
+}
+
+#listaHistorico li {
+    background-color: rgba(255, 255, 255, 0.8); /* Fundo branco com leve transparência */
+    padding: 10px;
+    margin-bottom: 30px;
+    border-radius: 5px;
+    color: #333; 
+    font-family: 'Open Sans', sans-serif; 
+    font-size: 16px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Sombra leve para dar destaque */
+    
+}
+
+#listaHistorico li strong {
+    color: #007BFF; /* Cor azul para os títulos */
+}
+
+/* Estilo para o título do histórico */
+h3 {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 18px;
+    color: #e6e0e0;
+    margin-bottom: 10px;
+}
+
+
+#confirmarPrevisaoBtn {
+    
+    padding: 10px 20px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 25px;
+    cursor: pointer;
+    font-size: 16px;
+    display: block;
+    width: 100%;  /* Faz com que o botão ocupe toda a largura disponível */
+    max-width: 200px;  /* Limita a largura máxima do botão */
+}
+
+/* Estilos para o botão do histórico */
+.btn-historico {
+    margin-top: -40px; /* Ajuste a margem superior para alinhamento adequado */
+    padding: 10px 20px;
+    background-color: #008CBA;
+    color: white;
+    border: none;
+    border-radius: 25px;
+    cursor: pointer;
+    font-size: 16px;
+    display: block;
+    width: 100%;  
+    max-width: 200px; 
+}
+
+/* Efeito hover nos botões */
+#confirmarPrevisaoBtn:hover, .btn-historico:hover {
+    background-color: #007B35;
+}
+
